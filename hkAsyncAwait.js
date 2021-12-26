@@ -1,9 +1,10 @@
 const puppeteer = require('puppeteer');
 const codeObj = require('./code');
+const credential = require('./credential');
 
 const loginUrl = 'https://www.hackerrank.com/auth/login';
-const email = 'tleleo615@gmail.com';
-const password = 'tleleo123.';
+const email = credential.email;
+const password = credential.password;
 
 
 console.log("before");
